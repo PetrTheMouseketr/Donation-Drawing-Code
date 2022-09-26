@@ -2,7 +2,7 @@ import random
 from collections import defaultdict
 
 #gets the info from the txt file
-raw_data = open("donations.txt", "r").readlines()
+raw_data = open("sample_donations.txt", "r").readlines()
 donator_dict = defaultdict(float)
 
 #figures out the range of values in the list of values
